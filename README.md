@@ -9,7 +9,7 @@ You should be using Chrome or another Chromium based browser for this like Micro
 
 You can either click F12 or CTRL + SHIFT + I to open the dev console.
 
-There is 2 values you should get and note somewhere, first one is the User-Agent which you can get by pasting the code "navigator.userAgent" **WITHOUT THE PARANTHESIS** on the Console tab and clicking enter. You should note that result somewhere, once that's done you should get the access-token.
+There is 2 values you should get and note somewhere, first one is the User-Agent which you can get by pasting the code `navigator.userAgent` **WITHOUT THE PARANTHESIS** on the Console tab and clicking enter. You should note that result somewhere, once that's done you should get the access-token.
 
 ![](https://i.imgur.com/2QA0MY4.png)
 
@@ -17,7 +17,7 @@ To do that go to the Application tab on the dev tools. (You may need to click th
 
 ![](https://i.imgur.com/f9kGee6.png) 
 
-You should then copy the value next to "sess" by double clicking it and using the CTRL + C combination.
+You should then copy the value next to `sess` by double clicking it and using the CTRL + C combination.
 
 You should also note this next to your User-Agent.
 
@@ -26,7 +26,3 @@ You should also note this next to your User-Agent.
 The tool itself is pretty easy to use. All you need to do is paste the text you have just copied to the corresponding fields. **BUT BE CAREFUL, DO NOT PASTE THE QUOTATION MARKS WHEN PASTING THE USER AGENT! YOU WILL NEED TO LOG IN TO ONLYFANS AGAIN!**
 
 ![](https://i.imgur.com/90tYyQl.png)
-
-#### Have a Recommendation/Issue/Question?
-
-DM me on Twitter at @mecha_coffee
