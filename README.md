@@ -9,7 +9,7 @@ You should be using Chrome or another Chromium based browser for this like Micro
 
 You can either click F12 or CTRL + SHIFT + I to open the dev console.
 
-There is 2 values you should get and note somewhere, first one is the User-Agent which you can get by pasting the code `navigator.userAgent` **WITHOUT THE PARANTHESIS** on the Console tab and clicking enter. You should note that result somewhere, once that's done you should get the access-token.
+There is 2 values you should get and note somewhere, first one is the User-Agent which you can get by pasting the code `navigator.userAgent` on the Console tab and clicking enter. You should note that result somewhere, once that's done you should get the access-token.
 
 ![](https://i.imgur.com/2QA0MY4.png)
 
