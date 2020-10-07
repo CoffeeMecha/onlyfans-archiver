@@ -1,4 +1,10 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/CoffeeMecha/onlyfans-archiver?style=flat) [![Twitter Follow](https://img.shields.io/twitter/follow/mecha_coffee?style=flat)](https://twitter.com/mecha_coffee) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) [![Donate Bitcoin](https://img.shields.io/badge/donate-$10-orange.svg)](https://coffeemecha.netlify.app/?amount=10&currency=USD)
+# OnlyFans Archiver
+
+## Screenshot
+![](https://i.imgur.com/90tYyQl.png)
+
+## How to Use
 ### Open Your Browser
 
 Log in to OnlyFans
@@ -25,4 +31,4 @@ You should also note this next to your User-Agent.
 
 The tool itself is pretty easy to use. All you need to do is paste the text you have just copied to the corresponding fields. **BUT BE CAREFUL, DO NOT PASTE THE QUOTATION MARKS WHEN PASTING THE USER AGENT! YOU WILL NEED TO LOG IN TO ONLYFANS AGAIN!**
 
-![](https://i.imgur.com/90tYyQl.png)
+
