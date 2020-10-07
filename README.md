@@ -7,7 +7,7 @@ Log in to OnlyFans
 
 You should be using Chrome or another Chromium based browser for this like Microsoft Edge.
 
-You can either click F12 or CTRL + SHIFT + I to open the dev console.
+You can either click <kbd>F12</kbd> or <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>I</kbd> to open the dev console.
 
 There is 2 values you should get and note somewhere, first one is the User-Agent which you can get by pasting the code `navigator.userAgent` on the Console tab and clicking enter. You should note that result somewhere, once that's done you should get the access-token.
 
@@ -17,7 +17,7 @@ To do that go to the Application tab on the dev tools. (You may need to click th
 
 ![](https://i.imgur.com/f9kGee6.png) 
 
-You should then copy the value next to `sess` by double clicking it and using the CTRL + C combination.
+You should then copy the value next to `sess` by double clicking it and using the <kbd>CTRL</kbd>+<kbd>C</kbd>.
 
 You should also note this next to your User-Agent.
 
