@@ -1,4 +1,4 @@
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)[![Donate Bitcoin](https://img.shields.io/badge/donate-$10-orange.svg)](https://coffeemecha.netlify.app/?amount=10&currency=USD)
+![GitHub last commit](https://img.shields.io/github/last-commit/CoffeeMecha/onlyfans-archiver?style=plastic) ![Twitter Follow](https://img.shields.io/twitter/follow/mecha_coffee?style=plastic) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) [![Donate Bitcoin](https://img.shields.io/badge/donate-$10-orange.svg)](https://coffeemecha.netlify.app/?amount=10&currency=USD)
 ### Open Your Browser
 
 Log in to OnlyFans
