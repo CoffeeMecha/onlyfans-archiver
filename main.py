@@ -129,10 +129,13 @@ def startFarting():
             else:
                 fileName = os.path.basename(a.path)
                 fileNameWithPath = f"{file_path}/{fileName}"
-                url = media["source"]["source"]
-                print(f"Downloading {fileName}")
-                executor.submit(download, fileName, fileNameWithPath, url)
-                print(f"Downloaded {fileName}")
+                if os.path.isfile(fileNameWithPath) == True:
+                    print(f"File Exists: {fileName}")
+                else:
+                    url = media["source"]["source"]
+                    print(f"Downloading {fileName}")
+                    executor.submit(download, fileName, fileNameWithPath, url)
+                    print(f"Downloaded {fileName}")
 
 
 def download(fileName, fileNameWithPath, url):
