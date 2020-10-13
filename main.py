@@ -37,6 +37,7 @@ import os
 import time
 import tkinter as tk
 import urllib.request
+import random
 from concurrent.futures import ThreadPoolExecutor
 from tkinter import *
 from tkinter import ttk
@@ -92,6 +93,19 @@ def getUAInputBoxValue():
     userInput = useragentInput.get()
     return userInput
 
+def genFreebies():
+    url = f"https://onlyfans.com/api2/v2/users/recommends?skip_users={random.randrange(0, 100)}&skip_users_dups={random.randrange(0, 100)}&app-token=33d57ade8c02dbc5a333db99ff9ae26a&state=free"
+
+    headers = {
+    'accept': 'application/json, text/plain, */*',
+    'access-token': getAccessInputBoxValue(),
+    'user-agent': getUAInputBoxValue()
+    }
+
+    response = requests.request("GET", url, headers=headers)
+
+    for data in response.json():
+        print(f"{data['username']}:{data['id']}")
 
 def startFarting():
     if not os.path.exists("downloads"):
@@ -161,7 +175,7 @@ def abortClicked():
     for t in executor._threads:
         terminate_thread(t)
         print(
-            "All threads killed, safe to close the window! Please re-run the script if you want to download again!"
+            "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAll threads killed, safe to close the window! Please re-run the script if you want to download again!"
         )
         Label(
             root,
@@ -231,6 +245,13 @@ useragentInput.place(x=25, y=176)
 Button(
     root, text="GO!!!", bg="#46de00", font=("arial", 12, "normal"), command=mfClicked
 ).place(x=25, y=216)
+
+
+# This is the section of code which creates a button
+Button(
+    root, text="Generate List of Random FREE Creators", bg="#fcba03", font=("arial", 12, "normal"), command=genFreebies
+).place(x=25, y=500)
+
 
 # This is the section of code which creates a button
 Button(
